@@ -16,5 +16,19 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var Mylabel: UILabel!
+    
+    @IBAction func ButtonPressed(_ sender: UIButton) {
+        Mylabel.text = "Hello Button Event"
+    }
+    
+    
+    @IBAction func label_Clear(_ sender: UIButton) {
+    Mylabel.text = ""
+    }
+    
+    @IBAction func changeViewColor(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor.white
+    }
 }
 
