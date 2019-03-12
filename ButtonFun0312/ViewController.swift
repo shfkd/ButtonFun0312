@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changeViewColor(_ sender: UIButton) {
-        self.view.backgroundColor = UIColor.white
+        self.view.backgroundColor = UIColor.black
     }
 }
 
